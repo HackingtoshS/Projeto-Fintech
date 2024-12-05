@@ -1,0 +1,124 @@
+/* Geral */
+body {
+    font-family: sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+/* Saldo Total */
+.saldo-total {
+    float: left;
+}
+
+.Saldo-total h2 {
+    font-size: 1.5rem !important;
+}
+
+.saldo-total .display-4 {
+    font-size: 1.5rem;
+    color: #ffc107;
+}
+
+/* Botões */
+.btn-dark {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #343a40 !important;
+    transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #d4ac0d;
+    border-color: #d4ac0d;
+    color: #343a40 !important;
+}
+
+.btn-outline-light {
+    color: #ffc107 !important;
+    border-color: #ffc107;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #343a40 !important;
+}
+
+
+/* Card */
+.card {
+border-radius: 15px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+background-color: #212529;
+}
+
+.bg-login {
+background-color: #000000 !important;
+}
+
+/* Formulário de Login */
+.form-check-label {
+    color: #e0e0e0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+
+
+/* Footer */
+footer {
+    width: 100%;
+    margin-top: auto;
+
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #e0e0e0;
+
+}
+
+footer a:hover {
+    color: #ffc107;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 1.5rem;
+    color: #e0e0e0;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffc107;
+}
+
+main {
+    flex-grow: 1;
+    margin-bottom: auto;
+}

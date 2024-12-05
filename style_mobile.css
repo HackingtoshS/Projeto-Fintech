@@ -1,0 +1,123 @@
+/* Geral */
+body {
+    font-family: sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffc107;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Saldo Total */
+.saldo-total {
+    text-align: center;
+    padding: 15px;
+}
+
+
+.saldo-texto {
+    font-size: 1.2rem;
+
+}
+
+.saldo-total .display-4 {
+    font-size: 1rem;
+    color: #ffc107;
+}
+
+/* Botões */
+.btn-dark {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #343a40 !important;
+    transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #d4ac0d;
+    border-color: #d4ac0d;
+    color: #343a40 !important;
+}
+
+
+/* Card */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #212529;
+}
+
+.bg-login {
+    background-color: #000000 !important;
+}
+
+
+.form-check-label {
+    color: #e0e0e0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+
+/* Footer (Mobile) */
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #e0e0e0;
+
+}
+
+footer a:hover {
+    color: #ffc107;
+}
+
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 1.5rem;
+    color: #e0e0e0;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffc107;
+}
+
+.logo-mobile {
+    max-width: 60px;
+    margin-right: 10px;
+}
+
+/* Media Queries para responsividade */
+@media (min-width: 768px)
+   .display-4{
+    font-size: 2rem;
+   }
+}
